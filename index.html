@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Montserrat:wght@100&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="input.css" />
+
+    <title>Next Step</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/img/nextSteplogoBlack.png"
+    />
+  </head>
+  <body>
+    <div class="background relative">
+      <div
+        class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-50 z-0"
+      ></div>
+      <!-- NavBar -->
+      <nav
+        class="relative container mx-auto mt-5 p-2 bg-transparent z-10 pt-11"
+      >
+        <!-- flex container -->
+        <div
+          class="flex container mx-auto justify-between items-center max-lg:mx-3"
+        >
+          <!-- logo -->
+          <a href="#"
+            ><div class="pt-2">
+              <img
+                class="w-[99px] h-[58px]"
+                src="./assets/img/next step logo.png"
+                alt="logo"
+              /></div
+          ></a>
+
+          <!-- nav content -->
+          <div class="hidden md:flex space-x-12 font-dosis text-white">
+            <a href="#services" class="hover:text-secondary-blue">SERVICES</a>
+            <a href="#courses" class="hover:text-secondary-blue">COURSES</a>
+            <a href="#aboutUs" class="hover:text-secondary-blue">ABOUT US</a>
+            <a href="#" class="hover:text-secondary-blue">CONTACT US</a>
+          </div>
+          <!-- hamburger icon -->
+          <button
+            id="menu-btn"
+            class="block hamburger mr-11 md:hidden focus:outlile-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+        <!-- mobile menu -->
+        <div class="md:hidden mb-28">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-primary-blue font-dosis text-white sm:w-auto sm:self-center left-20 right-20 drop-shadow-md z-50"
+          >
+            <a href="#services" class="hover:text-secondary-blue">SERVICES</a>
+            <a href="#courses" class="hover:text-secondary-blue">COURSES</a>
+            <a href="#aboutUs" class="hover:text-secondary-blue">ABOUT US</a>
+            <a href="#" class="hover:text-secondary-blue">CONTACT US</a>
+          </div>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <div class="container relative mx-auto mt-40 pb-28 z-20">
+        <h1
+          class="font-openSans text-6xl font-bold mb-10 ml-28 mr-28 max-lg:mx-3 text-white"
+        >
+          Career focused IT courses
+        </h1>
+        <p
+          class="font-openSans text-xl font-normal mb-20 lg:w-[745px] ml-28 mr-28 max-lg:mx-3 text-white"
+        >
+          Join our courses and unlock your potential in the digital world. Learn
+          advance courses from the experienced Software Engineers.
+        </p>
+        <a
+          href="#"
+          class="py-5 px-9 ml-28 mr-28 text-white bg-primary-blue rounded-full tracking-wider font-dosis max-lg:mx-3 hover:bg-secondary-blue"
+          >START COURSES</a
+        >
+      </div>
+    </div>
+    <!-- services -->
+    <section class="ml-28 mr-28" id="services">
+      <h2
+        class="font-dosis text-4xl font-semibold text-center tracking-widest pt-24"
+      >
+        OUR SERVICES
+      </h2>
+      <p
+        class="font-openSans text-xl font-normal mt-7 mb-20 tracking-wider text-center"
+      >
+        We help ambitious clients achieve extraordinary outcomes
+      </p>
+      <div
+        class="flex flex-wrap gap-x-60 gap-y-16 mb-32 max-lg:justify-center max-md:justify-center max-sm:justify-center max-md:gap-x-4"
+      >
+        <div class="flex flex-col gap-4">
+          <img class="w-[65px]" src="./assets/img/globe.png" alt="globe" />
+          <h3 class="font-openSans w-[265px] text-dark-grey text-xl">
+            Web Development
+          </h3>
+        </div>
+        <div class="flex flex-col gap-4">
+          <img class="w-[65px]" src="./assets/img/smartphone.png" alt="globe" />
+          <h3 class="font-openSans w-[265px] text-dark-grey text-xl">
+            Mobile App Development
+          </h3>
+        </div>
+        <div class="flex flex-col gap-4">
+          <img class="w-[65px]" src="./assets/img/code.png" alt="globe" />
+          <h3 class="font-openSans w-[265px] text-dark-grey text-xl">
+            UI / UX Design
+          </h3>
+        </div>
+        <div class="flex flex-col gap-4">
+          <img
+            class="w-[65px]"
+            src="./assets/img/marketing logo.png"
+            alt="globe"
+          />
+          <h3 class="font-openSans w-[265px] text-dark-grey text-xl">
+            Digital Marketing
+          </h3>
+        </div>
+        <div class="flex flex-col gap-4 ml-0 sm:ml-0 md:ml-0">
+          <img class="w-[65px]" src="./assets/img/seo logo.png" alt="globe" />
+          <h3 class="font-openSans w-[265px] text-dark-grey text-xl">
+            Search Engine Optimization
+          </h3>
+        </div>
+      </div>
+    </section>
+    <!-- popular courses -->
+    <section id="courses" class="bg-off-white flex flex-col">
+      <h2
+        class="font-dosis text-4xl font-semibold text-center tracking-widest pt-24"
+      >
+        POPULAR COURSES
+      </h2>
+      <p
+        class="font-openSans text-xl font-normal mt-7 mb-20 tracking-wider text-center"
+      >
+        Learn the most popular skills on the market
+      </p>
+      <div
+        class="flex ml-28 mr-28 gap-x-32 gap-y-6 lg:justify-between justify-center flex-wrap"
+      >
+        <div class="flex flex-col gap-2">
+          <img class="w-24 h-24" src="./assets/img/reactLogo.png" alt="react" />
+          <h3
+            class="font-openSans text-center text-dark-grey font-semibold text-xl"
+          >
+            React JS
+          </h3>
+        </div>
+        <div class="flex flex-col gap-2">
+          <img
+            class="w-24 h-24"
+            src="./assets/img/flutterLogo.png"
+            alt="react"
+          />
+          <h3
+            class="font-openSans text-center text-dark-grey font-semibold text-xl"
+          >
+            Flutter
+          </h3>
+        </div>
+        <div class="flex flex-col gap-2">
+          <img class="w-24 h-24" src="./assets/img/javaLOgo.png" alt="react" />
+          <h3
+            class="font-openSans text-center text-dark-grey font-semibold text-xl"
+          >
+            Java
+          </h3>
+        </div>
+        <div class="flex flex-col gap-2">
+          <img
+            class="w-24 h-24"
+            src="./assets/img/djangoLogo.png"
+            alt="react"
+          />
+          <h3
+            class="font-openSans text-center text-dark-grey font-semibold text-xl"
+          >
+            Django
+          </h3>
+        </div>
+        <div class="flex flex-col gap-2">
+          <img class="w-24 h-24" src="./assets/img/nodeLogo.png" alt="react" />
+          <h3
+            class="font-openSans text-center text-dark-grey font-semibold text-xl"
+          >
+            Node JS
+          </h3>
+        </div>
+        <div class="flex flex-col gap-2">
+          <img class="w-24 h-24" src="./assets/img/uiuxLogo.png" alt="react" />
+          <h3
+            class="font-openSans text-center text-dark-grey font-semibold text-xl"
+          >
+            UI / UX
+          </h3>
+        </div>
+      </div>
+      <button
+        class="bg-primary-blue rounded-full pt-5 pb-5 pl-9 pr-9 hover:bg-secondary-blue text-white font-openSans self-center mt-24 mb-32 font-bold text-xl"
+      >
+        VIEW ALL COURSES
+      </button>
+    </section>
+    <!-- about us -->
+    <section id="aboutUs" class="flex flex-col">
+      <h3
+        class="text-center text-primary-blue text-xl font-openSans font-semibold mt-[100px]"
+      >
+        ONE STEP AHEAD
+      </h3>
+      <h2
+        class="font-dosis text-4xl font-semibold text-center tracking-widest mt-6 mb-[60px]"
+      >
+        ABOUT US
+      </h2>
+      <p
+        class="font-openSans text-xl font-normal ml-[118px] mr-[118px] mb-[110px] max-md:mx-6"
+      >
+        Since 2022 we have been working with clients to imagine and build
+        software that people love to use,and we think we’re different. A
+        computer institution and a software company our professional IT Training
+        and Development centre has been employing experts in this field to
+        impart professional education.
+      </p>
+    </section>
+    <!-- testimonial -->
+    <section class="bg-off-white">
+      <h3
+        class="text-center text-primary-blue text-xl font-openSans font-semibold pt-[100px]"
+      >
+        WHAT OUR STUDENTS SAY
+      </h3>
+      <h2
+        class="font-dosis text-4xl font-semibold text-center tracking-widest mt-6 pb-[60px]"
+      >
+        TESTIMONIALS
+      </h2>
+
+      <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative overflow-hidden rounded-lg h-[450px]">
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="flex flex-col text-center">
+              <div
+                class="flex gap-2 justify-center ml-[241px] mr-[236px] max-lg:mr-8 max-lg:ml-8"
+              >
+                <h4
+                  class="font-dosis text-primary-blue font-extrabold text-7xl w-20"
+                >
+                  “
+                </h4>
+                <h4 class="font-openSans text-2xl">
+                  I recently completed a course with them and can confidently
+                  say that it was one of the best decisions I have made for my
+                  professional development.
+                </h4>
+              </div>
+              <img
+                src="./assets/img/testimonial1.png"
+                class="relative mx-auto mt-20 mb-20 h-16 w-80 inline-block"
+                alt="..."
+              />
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="flex flex-col">
+              <div
+                class="flex gap-2 justify-center ml-[241px] mr-[236px] max-lg:mr-8 max-lg:ml-8"
+              >
+                <h4
+                  class="font-dosis text-primary-blue font-extrabold text-7xl w-20"
+                >
+                  “
+                </h4>
+                <h4 class="font-openSans text-2xl">
+                  I recently completed a course with them and can confidently
+                  say that it was one of the best decisions I have made for my
+                  professional development.
+                </h4>
+              </div>
+              <img
+                src="./assets/img/testimonial1.png"
+                class="relative mx-auto mt-20 mb-20 h-16 w-80 inline-block"
+                alt="..."
+              />
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="flex flex-col">
+              <div
+                class="flex gap-2 justify-center ml-[241px] mr-[236px] max-lg:mr-8 max-lg:ml-8"
+              >
+                <h4
+                  class="font-dosis text-primary-blue font-extrabold text-7xl w-20"
+                >
+                  “
+                </h4>
+                <h4 class="font-openSans text-2xl">
+                  I recently completed a course with them and can confidently
+                  say that it was one of the best decisions I have made for my
+                  professional development.
+                </h4>
+              </div>
+              <img
+                src="./assets/img/testimonial1.png"
+                class="relative mx-auto mt-20 mb-20 h-16 w-80 inline-block"
+                alt="..."
+              />
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="flex flex-col">
+              <div
+                class="flex gap-2 justify-center ml-[241px] mr-[236px] max-lg:mr-8 max-lg:ml-8"
+              >
+                <h4
+                  class="font-dosis text-primary-blue font-extrabold text-7xl w-20"
+                >
+                  “
+                </h4>
+                <h4 class="font-openSans text-2xl">
+                  I recently completed a course with them and can confidently
+                  say that it was one of the best decisions I have made for my
+                  professional development.
+                </h4>
+              </div>
+              <img
+                src="./assets/img/testimonial1.png"
+                class="relative mx-auto mt-20 mb-20 h-16 w-80 inline-block"
+                alt="..."
+              />
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="flex flex-col">
+              <div
+                class="flex gap-2 justify-center ml-[241px] mr-[236px] max-lg:mr-8 max-lg:ml-8"
+              >
+                <h4
+                  class="font-dosis text-primary-blue font-extrabold text-7xl w-20"
+                >
+                  “
+                </h4>
+                <h4 class="font-openSans text-2xl">
+                  I recently completed a course with them and can confidently
+                  say that it was one of the best decisions I have made for my
+                  professional development.
+                </h4>
+              </div>
+              <img
+                src="./assets/img/testimonial1.png"
+                class="relative mx-auto mt-20 mb-20 h-16 w-80 inline-block"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Slider indicators -->
+        <div
+          class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2"
+        >
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="true"
+            aria-label="Slide 1"
+            data-carousel-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 2"
+            data-carousel-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 3"
+            data-carousel-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 4"
+            data-carousel-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 5"
+            data-carousel-slide-to="4"
+          ></button>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section>
+      <div
+        class="flex justify-between gap-28 max-lg:flex-col mt-[100px] ml-[114px] mr-[117px] max-lg:mx-3"
+      >
+        <div class="flex justify-around gap-8">
+          <div class="flex flex-col">
+            <h1 class="font-openSans text-2xl font-bold">Company</h1>
+            <a class="font-openSans text-lg" href="#aboutUs">About us</a>
+            <a class="font-openSans text-lg" href="#services">Services</a>
+            <a class="font-openSans text-lg" href="#courses">Courses</a>
+          </div>
+          <div class="flex flex-col">
+            <h1 class="font-openSans text-2xl font-bold">Join</h1>
+            <a class="font-openSans text-lg" href="#">Career</a>
+            <a class="font-openSans text-lg" href="#">Internship</a>
+          </div>
+        </div>
+        <div><img src="./assets/img/map 1.png" alt="" /></div>
+      </div>
+      <hr class="mt-10" />
+      <div
+        class="flex justify-between ml-[117px] mr-[115px] mt-8 mb-8 max-lg:mx-6 max-lg:flex-col max-xl:gap-2 items-center"
+      >
+        <p>Copyright 2023 Next Step. All rights reserved.</p>
+        <div class="flex gap-8 max-md:mt-6">
+          <img src="./assets/img/facebook.png" class="h-5 w-5" alt="" />
+          <img src="./assets/img/instagram.png" class="h-5 w-5" alt="" />
+          <img src="./assets/img/linked in.png" class="h-5 w-5" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
